@@ -1,5 +1,5 @@
 {
-    "name": "dns-info",
+    "name": "@nerdytechy/dns-info",
     "version": "1.0.0",
     "description": "Fetch DNS info.",
     "main": "dns-info.js",
