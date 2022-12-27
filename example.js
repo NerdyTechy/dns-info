@@ -9,9 +9,9 @@ dnsInfo({
     },
     timeout: 2000,
 })
-    .then(function (info) {
+    .then((info) => {
         console.log(info);
     })
-    .catch(function (e) {
+    .catch((e) => {
         console.error(e);
     });
