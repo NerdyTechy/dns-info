@@ -1,17 +1,32 @@
 {
-  "name": "dns-info",
-  "description": "Fetch DNS info.",
-  "keywords": [
-    "dns",
-    "promise"
-  ],
-  "version": "0.1.0",
-  "main": "./dns-info.js",
-  "license": "Public domain",
-  "repository": "https://github.com/pihvi/dns-info",
-  "dependencies": {
-    "lodash": "2.4.1",
-    "bluebird": "2.2.2",
-    "native-dns": "0.6.1"
-  }
+    "name": "dns-info",
+    "version": "1.0.0",
+    "description": "Fetch DNS info.",
+    "main": "dns-info.js",
+    "scripts": {
+        "test": "node example.js",
+        "format": "npx prettier --write ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NerdyTechy/dns-info.git"
+    },
+    "keywords": [
+        "dns",
+        "promise"
+    ],
+    "author": "NerdyTechy",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/NerdyTechy/dns-info/issues"
+    },
+    "homepage": "https://github.com/NerdyTechy/dns-info#readme",
+    "dependencies": {
+        "bluebird": "^3.7.2",
+        "lodash": "^4.17.21",
+        "native-dns": "^0.7.0"
+    },
+    "devDependencies": {
+        "prettier": "^2.8.1"
+    }
 }
