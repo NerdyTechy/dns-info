@@ -1,7 +1,7 @@
 {
     "name": "@nerdytechy/dns-info",
     "version": "1.0.1",
-    "description": "Fetch DNS info.",
+    "description": "Easily fetch all DNS records on a domain with a single high-speed function.",
     "main": "dns-info.js",
     "scripts": {
         "test": "node example.js",
@@ -13,6 +13,11 @@
     },
     "keywords": [
         "dns",
+        "dns-info",
+        "dns-records",
+        "domains",
+        "records",
+        "domain-info",
         "promise"
     ],
     "author": "NerdyTechy",
