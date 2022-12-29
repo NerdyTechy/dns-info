@@ -5,17 +5,20 @@ A simple package to fetch information about a domain's DNS records.
 > :warning: **Note:** This package is a fork of [pihvi/dns-info](https://www.npmjs.com/package/dns-info) and has been updated to fix security vulnerabilities and to simplify the codebase.
 
 ## Installation
-
-Install the package by downloading it from npm
-
 ```
 npm install @nerdytechy/dns-info
 ```
 
-Then, require it in your module
+This fork of dns-info supports both CommonJS and ESM.
 
+### CommonJS
 ```javascript
 const dnsInfo = require("@NerdyTechy/dns-info");
+```
+
+### ESM
+```javascript
+import dnsInfo from '@nerdytechy/dns-info';
 ```
 
 ## Examples
@@ -44,7 +47,7 @@ dnsInfo({
         console.log(info);
     })
     .catch((e) => {
-        console.error(e);
+        console.error(e); // Request timed out
     });
 ```
 
