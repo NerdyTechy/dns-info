@@ -1,3 +1,5 @@
 .prettierignore
 .prettierrc.json
+.eslintignore
+.eslintrc.json
 /.github

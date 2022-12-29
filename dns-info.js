@@ -24,7 +24,7 @@ module.exports = function fetchDnsInfo(param) {
                 timeout: config.timeout,
             })
                 .on("timeout", function () {
-                    reject("Timeout in fetching DNS info.");
+                    reject("Request timed out whilst fetching DNS information.");
                 })
                 .on("message", function (err, res) {
                     resolve(err || res);
