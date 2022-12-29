@@ -1,6 +1,6 @@
 {
     "name": "@nerdytechy/dns-info",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "description": "Easily fetch all DNS records on a domain with a single high-speed function.",
     "main": "dns-info.js",
     "exports": {
