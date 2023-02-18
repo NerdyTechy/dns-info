@@ -9,3 +9,4 @@ updates:
       include: "scope"
     assignees:
       - "NerdyTechy"
+    versioning-strategy: increase
