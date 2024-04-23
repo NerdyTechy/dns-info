@@ -41,7 +41,7 @@
         "native-dns": "^0.7.0"
     },
     "devDependencies": {
-        "eslint": "^9.0.0",
+        "eslint": "^9.1.1",
         "gen-esm-wrapper": "^1.1.3",
         "prettier": "^3.2.5"
     }
