@@ -37,7 +37,7 @@
     "homepage": "https://github.com/NerdyTechy/dns-info#readme",
     "dependencies": {
         "bluebird": "^3.7.2",
-        "lodash": "^4.17.21",
+        "lodash": "^4.18.1",
         "native-dns": "^0.7.0"
     },
     "devDependencies": {
